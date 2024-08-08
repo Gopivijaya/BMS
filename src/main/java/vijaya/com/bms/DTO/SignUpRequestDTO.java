@@ -1,16 +1,14 @@
-package vijaya.com.bms.model;
+package vijaya.com.bms.DTO;
 
-import jakarta.persistence.Entity;
+
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
 @Getter
 @Setter
 
-public class User extends Base{
+public class SignUpRequestDTO {
     private String Name;
     private String Email;
     private String Password;
-
 }
